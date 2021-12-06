@@ -1,0 +1,35 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1,
+button {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+button {
+  border: none;
+  padding: 1vw 2vw;
+  margin: 0.5vw;
+  text-decoration: none;
+  background: #00ac72;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: #00ca87;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
