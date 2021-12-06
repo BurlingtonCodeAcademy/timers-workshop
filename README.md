@@ -20,13 +20,19 @@ Display two different timers with two different sets of behavior in the browser.
 
 ## Instructions
 
-#### setTimeOutSyntax:
+### Syntax Examples
 
-`variable = setTimeout((function) => { what happens }, milliseconds it delays)`
+#### setTimeoutSyntax:
 
-#### setInterval Syntax
+`variableTimeout = setTimeout((props) => { what happens after delay }, milliseconds it delays)`
 
-`variable = setInterval(() => {what happens; should include condition for canceling the interval with clearInterval(variable) }, milliseconds between function calls)`
+#### setInterval Syntax:
+
+`variableInterval = setInterval((props) => { what happens every function call }, milliseconds between function calls)`
+
+#### clearTimeout and clearInterval:
+
+`clearTimeout(variableTimeout)` or `clearInterval(variableInterval)`
 
 A detailed list of steps that the student should follow, in narrative form, or combined code and narrative form.
 
@@ -38,5 +44,5 @@ Leave a challenge or two at the end with zero hints or guidance to see if the st
 
 ## Additional Resources
 
-[Modern Javascript's Scheduling Article](https://javascript.info/settimeout-setinterval)
-[Freecodecamp's Javascript Timing Events Article](https://www.freecodecamp.org/news/javascript-timing-events-settimeout-and-setinterval/)
+- [Modern Javascript's Scheduling Article](https://javascript.info/settimeout-setinterval)
+- [Freecodecamp's Javascript Timing Events Article](https://www.freecodecamp.org/news/javascript-timing-events-settimeout-and-setinterval/)
