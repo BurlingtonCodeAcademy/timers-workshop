@@ -24,7 +24,7 @@ Display two different timers with two different sets of behavior in the browser.
 
 `variable = setTimeout((function) => { what happens }, milliseconds it delays)`
 
-#### setInterval Syntax
+#### setInterval Syntax:
 
 `variable = setInterval(() => {what happens; should include condition for canceling the interval with clearInterval(variable) }, milliseconds between function calls)`
 
