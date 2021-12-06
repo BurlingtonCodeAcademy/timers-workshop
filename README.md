@@ -20,9 +20,13 @@ Display two different timers with two different sets of behavior in the browser.
 
 ## Instructions
 
-//setTimeout - sets a timer that executes a function etc once the timer experiences
+`setTimeOut` Syntax:
 
-// variable = setTimeout((function) => { what happens }, milliseconds it delays)
+`variable = setTimeout((function) => { what happens }, milliseconds it delays)`
+
+`setInterval` Syntax
+
+`variable = setInterval(() => {what happens; should include condition for canceling the interval with clearInterval(variable) }, milliseconds between function calls)`
 
 A detailed list of steps that the student should follow, in narrative form, or combined code and narrative form.
 
@@ -34,12 +38,5 @@ Leave a challenge or two at the end with zero hints or guidance to see if the st
 
 ## Additional Resources
 
-Link to any third-party resources that are related to the subject matter and would expand the students understanding beyond the scope of this workshop.
-
-Make sure that your link has the following qualities:
-
-- Topical: Keep the link focused on the workshop content.
-- Enjoyable: Is this resource fun to learn from?
-- Authoritative: Ensure that the author of the content is considered an authority on the subject.
-- Reliable: Consider whether the link will still be valid in 5 years, how about 10 years?
-- Open: Confirm that there is no paywall required to access the resource.
+[Modern Javascript's Scheduling Article](https://javascript.info/settimeout-setinterval)
+[Freecodecamp's Javascript Timing Events Article](https://www.freecodecamp.org/news/javascript-timing-events-settimeout-and-setinterval/)
