@@ -1,9 +1,9 @@
 {
-  "name": "workshop-example-template",
+  "name": "times-workshop",
   "version": "1.0.0",
   "private": true,
-  "description": "A basic template for instructors to base their workshops on.",
-  "main": "main.js",
+  "description": "A workshop focused on Javascript's two timing methods.",
+  "main": "timers.js",
   "scripts": {
     "format": "prettier --write --ignore-unknown .",
     "lint": "eslint .",
@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BurlingtonCodeAcademy/workshop-example-template.git"
+    "url": "https://github.com/BurlingtonCodeAcademy/timers-workshop"
   },
   "keywords": [
-    "workshop",
+    "DOM",
     "javascript"
   ],
   "author": "Joshua Burke",
   "license": "LicenseRef-LICENSE",
   "bugs": {
-    "url": "https://github.com/BurlingtonCodeAcademy/workshop-example-template/issues"
+    "url": "https://github.com/BurlingtonCodeAcademy/timers-workshop"
   },
-  "homepage": "https://github.com/BurlingtonCodeAcademy/workshop-example-template#readme",
+  "homepage": "https://github.com/BurlingtonCodeAcademy/timers-workshop",
   "devDependencies": {
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
