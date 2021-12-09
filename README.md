@@ -1,48 +1,42 @@
-## Overview
+### Overview
 
-A workshop dedicated to understanding the `setTimeout` and `setInterval` methods via DOM manipulation in the browser.
+Workshop dedicated to broadening knowledge of timer methods in Javascript. You will create two different timers utilizing `setTimeout` and `setInterval` to compare and contrast their functionality and see this functionality occur in the browser via DOM scripting.
 
-## Objective
+To begin, open `timers.js` and follow the scaffolded instructions. All of the CSS for this workshop is provided as boilerplate.
 
-Display two different timers with two different sets of behavior in the browser.
+### Objective
 
-## Topics
+A webpage that contains two sets of buttons. One set controls a `Timeout` timer and the other set controls an `Interval` timer.
 
-> - Javascript timing methods
-> - DOM manipulation
+### Topics
 
-## Prior Knowledge
+> - Two main Javascript timing methods
+> - DOM scripting
 
-> - Variables
-> - Functions
-> - Basic Syntax
-> - Terminal Usage
+### Prior Knowledge
 
-## Instructions
+> - Basic Javascript
+> - DOM scripting
 
-### Syntax Examples
+### Context
 
-#### setTimeoutSyntax:
+There are two key differences between `setTimeout` and `setInterval`. `setTimeout` is a method that _executes a function once_ after a delay defined in milliseconds by the programmer. `setInterval` is a method that _executes a function repeatedly_ after a delay defined in milliseconds by the programmer. Both come with pair methods `clearTimeout` and `clearInterval` that can be used to cancel the timer based on a series of logical conditions.
 
-`variableTimeout = setTimeout((props) => { what happens after delay }, milliseconds it delays)`
+Speaking generally, `setInterval` is the more rich timing method; it also requires more logic to behave as expected.
 
 #### setInterval Syntax:
 
 `variableInterval = setInterval((props) => { what happens every function call }, milliseconds between function calls)`
 
-#### clearTimeout and clearInterval:
+`clearInterval(variableInterval)`
 
-`clearTimeout(variableTimeout)` or `clearInterval(variableInterval)`
+#### setTimeout Syntax:
 
-A detailed list of steps that the student should follow, in narrative form, or combined code and narrative form.
+`variableTimeout = setTimeout((props) => { what happens at time out}, milliseconds until time out)`
 
-Avoid providing direct answers in the steps, but do hint at the answer and provide empty code or comments for the students to fill in.
+`clearTimeout(variableTimeout)`
 
-These steps should be more prescriptive at the start, and become less prescriptive as the student progresses through the workshop towards more the more advanced challenges.
-
-Leave a challenge or two at the end with zero hints or guidance to see if the students can go beyond the workshop, and achieve something advanced on their own. Keep these challenges optional, and keep their difficulty within the confines of a competent student's abilities.
-
-## Additional Resources
+### Additional Resources
 
 - [Modern Javascript's Scheduling Article](https://javascript.info/settimeout-setinterval)
 - [Freecodecamp's Javascript Timing Events Article](https://www.freecodecamp.org/news/javascript-timing-events-settimeout-and-setinterval/)
